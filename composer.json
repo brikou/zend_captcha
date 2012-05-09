@@ -1,0 +1,32 @@
+{
+    "name": "brikou/zend_captcha",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Captcha Library",
+    "keywords": [
+        "zend framework",
+        "captcha"
+    ],
+    "homepage": "https://github.com/brikou/zend_captcha",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_config": "*",
+        "brikou/zend_form": "*",
+        "brikou/zend_loader": "*",
+        "brikou/zend_service": "*",
+        "brikou/zend_session": "*",
+        "brikou/zend_text": "*",
+        "brikou/zend_validator": "*",
+        "brikou/zend_view": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Captcha": "" }
+    }
+}
